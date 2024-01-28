@@ -6,4 +6,3 @@ spring:
 mongo-change-stream:
   collectionName: ${COLLECTION_NAME:"Cars"}
   operation-types: ${OPERATION_TYPES:"insert, update, delete"}
-
